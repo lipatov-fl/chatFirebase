@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FbChat</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_send_hint">Message</string>
+
+    <string name="btn_google_sign_in">Google SignIn</string>
 </resources>

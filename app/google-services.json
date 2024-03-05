@@ -13,7 +13,20 @@
           "package_name": "com.example.fbchat"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "267825316319-re00hj354ghbcimg4bjj990nte6ufo5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fbchat",
+            "certificate_hash": "7412a3590125b9b023fe459c7ba19567022c1974"
+          }
+        },
+        {
+          "client_id": "267825316319-jobbhnfmchh7c869kmpounr0nm4oa2td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBV3CnHSNUHZt38xj_OqYcmGZQHSGqhXzo"
@@ -21,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267825316319-jobbhnfmchh7c869kmpounr0nm4oa2td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
