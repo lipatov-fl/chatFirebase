@@ -46,6 +46,7 @@ class SignInAct : AppCompatActivity() {
         binding.btnSignIn.setOnClickListener {
             signInWithGoogle()
         }
+        checkAuthState()
     }
 
     private fun getClient(): GoogleSignInClient {  // Запускаем окно, который дает выбор google аккаунта
@@ -66,9 +67,17 @@ class SignInAct : AppCompatActivity() {
         auth.signInWithCredential(credential).addOnCompleteListener {
             if (it.isSuccessful) {
                 Log.d("MyLog", "Google signIn done")
+                checkAuthState()
             } else {
                 Log.d("MyLog", "Google signIn error")
             }
+        }
+    }
+
+    private fun checkAuthState() {
+        if(auth.currentUser != null) {
+            val i = Intent(this, MainActivity::class.java)
+            startActivity(i)
         }
     }
 }

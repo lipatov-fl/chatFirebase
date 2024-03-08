@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">FbChat</string>
-    <string name="btn_send">Send</string>
-    <string name="btn_send_hint">Message</string>
-
-    <string name="btn_google_sign_in">Google SignIn</string>
+    <string name="app_name" translatable="false">FbChat</string>
+    <string name="btn_send" translatable="false">Send</string>
+    <string name="btn_send_hint" translatable="false">Message</string>
+    <string name="btn_google_sign_in" translatable="false">Google SignIn</string>
+    <string name="menu_sign_out" translatable="false">Sign out</string>
 </resources>
