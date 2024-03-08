@@ -75,7 +75,7 @@ class SignInAct : AppCompatActivity() {
     }
 
     private fun checkAuthState() {
-        if(auth.currentUser != null) {
+        if (auth.currentUser != null) {
             val i = Intent(this, MainActivity::class.java)
             startActivity(i)
         }
